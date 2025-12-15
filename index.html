@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finanzas Accesible</title>
+</head>
+<body>
+  <main>
+    <h1>Finanzas</h1>
+    <form id="form" aria-label="Formulario de ejemplo">
+      <div>
+        <label for="periodo_mes">Mes</label>
+        <select id="periodo_mes" name="periodo_mes" title="Mes">
+          <option value="" disabled selected>Seleccione mes</option>
+          <option value="1">enero</option>
+          <option value="2">febrero</option>
+          <option value="3">marzo</option>
+          <option value="4">abril</option>
+          <option value="5">mayo</option>
+          <option value="6">junio</option>
+          <option value="7">julio</option>
+          <option value="8">agosto</option>
+          <option value="9">septiembre</option>
+          <option value="10">octubre</option>
+          <option value="11">noviembre</option>
+          <option value="12">diciembre</option>
+        </select>
+        <label for="periodo_ano">Año</label>
+        <select id="periodo_ano" name="periodo_ano" title="Año">
+          <option value="" disabled selected>Seleccione año</option>
+          <option>2024</option>
+          <option>2025</option>
+          <option>2026</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="tipo">Tipo</label>
+        <select id="tipo" name="tipo" title="Tipo">
+          <option value="ingreso">Ingreso</option>
+          <option value="gasto">Gasto</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="monto">Monto</label>
+        <input id="monto" name="monto" type="number" placeholder="Monto en CLP" title="Monto">
+      </div>
+
+      <div>
+        <label for="categoria">Categoría</label>
+        <input id="categoria" name="categoria" type="text" placeholder="Categoría" title="Categoría">
+      </div>
+
+      <div>
+        <label for="nota">Nota</label>
+        <input id="nota" name="nota" type="text" placeholder="Nota" title="Nota">
+      </div>
+
+      <button type="submit" title="Enviar">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>
